@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking</title>
+</head>
+<body>
+  <nav>
+    <a href="Index.html.html">Home</a> 
+    <a href="Ranks.html">Ranks</a>
+    <a href="Ranking.html">Favorite Character Form</a> 
+  </nav>
+
+  <form style="width: 20%;margin: 20px auto; background-color: grey; padding: 20px; border-radius: 10px">
+    <h1>Rank your Characters!</h1>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="dropdown">Choose an option:</label>
+    <select id="dropdown" name="dropdown">
+      <option value="option1">Sam Winchester</option>
+      <option value="option2">Dean Winchester</option>
+      <option value="option3">Castiel</option>
+      <option value="option4">Bobby Singer</option>
+      <option value="option5">Crowley</option>
+    </select><br><br>
+
+    <fieldset>
+      <legend>Rank:</legend>
+      <input type="radio" id="choice1" name="choice" value="choice1">
+      <label for="choice1">The Best!</label><br>
+      <input type="radio" id="choice2" name="choice" value="choice2">
+      <label for="choice2">The Worst!</label>
+    </fieldset><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="30" style="background-color: blueviolet;"></textarea><br><br>
+
+    <input type="submit" value="Submit" style="background-color: blue; padding: 10px; border: none; cursor: pointer;">
+    <input type="reset" value="Reset" style="background-color: blue; padding: 10px; border: none; cursor: pointer;" >
+  </form>
+</body>
+</html>
